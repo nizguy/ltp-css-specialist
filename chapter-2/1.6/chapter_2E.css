@@ -1,0 +1,35 @@
+.button{
+	height:  100px;
+	background-color: transparent;
+	background-image: url("Buttonorangeright1.png");
+	background-size:auto 85px;
+	
+	background-repeat: no-repeat;
+	background-position: top right;
+	float: left;
+	display: block;
+	padding-left: 50px;
+	padding-right: 90px;
+	margin-left: 0px;
+	margin-top: ;
+	margin-right:0px;
+	margin-bottom: ;
+}
+a.button span{
+	background-color: transparent;
+	background-image: url("Buttonorangeleft1.png");
+	background-repeat: no-repeat;
+	
+	line-height: 90px;
+	
+	display: block;
+	padding:0px 30px 30px 50px;
+	margin-right: -34px;
+	margin-top: -6px;
+}
+a.button:hover{
+	background-image: url("Buttonorangergthover.png");
+}
+a.button:hover span{
+	background-image: url("Buttonorangelefthover.png");
+}

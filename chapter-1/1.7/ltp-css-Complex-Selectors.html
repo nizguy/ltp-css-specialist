@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+		/* This is a CSS standard single selector which styles the h1 tags */
+		h1{
+			background-color: lightblue;
+			color:black;
+		}
+		/* This is a CSS multiple selector which styles the h1 & p tags the same */
+		/* h1, p{
+			background-color: lightblue;
+			color:white;
+		}
+		*/
+		/* This is a CSS Decendant relationship which styles only the p tags inside of the ul tags in this case */
+		ul p{
+			background-color: yellow;
+			color: black;
+		}
+		/* This is a CSS Parent/Child relationship which styles only the a between the p tags as there is only one degree of separation - that is there is an h1 tag between the body tag and the p tag and the a tag is between the p tags */
+		p>a{
+			background-color: purple;
+			color: white;
+			}
+		
+	</style>
+	</head>
+	<body>
+		<h1>LTP-CSS-1.7 CSS Complex Selectors Practice Exercise</h1>
+		<p>Here is a link to my favourite search engine: <a href="https://www.google.com">Google</a></p>
+		
+		<ul>
+			<li><p>Paragragh 1</p></li>
+			<li><p>Paragragh 2</p></li>
+			<li><p>Paragragh 3</p></li>
+			<li><a>Anchor 1</a></li>
+		</ul>
+	</body>	
+	</html>

@@ -1,0 +1,16 @@
+.main-body{
+	width: 1000px;
+	height: 600px;
+	background-size: 400px 300px;
+	
+	background-image: 
+		url('DSC_0145.jpg'), url('gradient.jpg');
+	background-repeat: no-repeat, repeat-x;
+	background-position: right bottom, left top;
+	
+}
+
+h1{
+	color: lightblue;
+	font-size: 50px;
+}
