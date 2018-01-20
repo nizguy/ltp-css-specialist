@@ -1,0 +1,27 @@
+#title{
+	background: url("images/sprite_sheet_text_300x100.png") 0px 0px;
+}
+
+#title:hover{
+	background: url("images/sprite_sheet_text_300x100.png") -150px 0px;
+}
+
+.chrome .sprite{
+	background: url("images/5_logos_500x100.png") -198px 0px;
+}
+
+.ie .sprite{
+	background: url("images/5_logos_500x100.png") -395px 0px;
+}
+
+.safari .sprite{
+	background: url("images/5_logos_500x100.png") 0px 0px;
+}
+
+.firefox .sprite{
+	background: url("images/5_logos_500x100.png") -97px 0px;
+}
+
+.opera .sprite{
+	background: url("images/5_logos_500x100.png") -295px 0px;
+}

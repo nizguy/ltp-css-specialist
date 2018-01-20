@@ -1,0 +1,47 @@
+h1{
+	font-family: Lobster;
+}
+
+span{
+	background-color: none;
+}
+ul{
+	list-style-type: square;
+}
+li{
+	color: aliceblue;
+	text-shadow: 3px solid black;
+}
+
+body{
+	font-size: 1.5em;
+	background-image: url("images/renandstimpy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#my_menu .submenu ul{
+	display: none;
+	position: fixed;
+	background-color: darkslategrey;
+	list-style-type: none;
+	border-left: 3px solid aqua;
+	border-right: 3px solid aqua;
+	border-bottom: 3px solid aqua;
+	margin-top: 3px;
+	padding: 10px;
+}
+
+#my_menu .submenu:hover ul{
+	display: block;
+	width: 250px;
+}
+
+#my_menu{
+	background-color: aqua;
+}
+
+#my_menu td{
+	padding-left: 15px;
+	padding-right: 15px;
+}

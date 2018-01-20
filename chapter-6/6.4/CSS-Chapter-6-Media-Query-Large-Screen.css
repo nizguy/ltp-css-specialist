@@ -1,0 +1,33 @@
+h1{
+	background-color: green;
+	color: deeppink;
+}
+
+img{
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+	-webkit-animation: widthChange 3s;
+	-webkit-animation-iteration-count: ease;
+}
+
+@-webkit-keyframes widthChange{
+	0% {width: 0px;}
+	10% {width: 75px;}
+	20% {width: 150px;}
+	30% {width: 225px;}
+	40% {width: 300px;}
+	50% {width: 375px;}
+	60% {width: 450px;}
+	70% {width: 525px;}
+	80% {width: 600px;}
+	90% {width: 675px;}
+	100% {width: 1280px;}
+}
+}
+
+p{
+	font-size: 3em;
+}

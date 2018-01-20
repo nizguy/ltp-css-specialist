@@ -1,0 +1,7 @@
+#image{
+	padding: 5p;
+	border-style: solid;
+	border-width: 10px;
+	border-color: hotpink;
+	border-radius: 200% 500% 800%;
+}

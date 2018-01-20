@@ -1,0 +1,21 @@
+#myMenu .subMenu ul{
+	display: none;
+	position: fixed;
+	background-color: lightblue;
+	list-style-type: none;
+	border-left: 3px solid lightsalmon;
+	border-right: 3px solid lightsalmon;
+	border-bottom: 3px solid lightsalmon;
+	margin-top: 3px;
+	padding: 10px;
+}
+#myMenu .subMenu:hover ul{
+	display: block;	
+}
+#myMenu{
+	background-color: lightsalmon;
+}
+#myMenu td{
+	padding-left: 15px;
+	padding-right: 15pz;
+}

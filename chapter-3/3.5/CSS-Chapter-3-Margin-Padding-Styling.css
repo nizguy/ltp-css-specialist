@@ -1,0 +1,27 @@
+.smallBox{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	border: none;
+	display: block;
+	
+}
+
+#Pic1{
+	padding-bottom: 20px;
+}
+
+#Pic2{
+	padding-top: 20px;
+}
+
+#Pic3{
+	margin-bottom: 20px;
+}
+
+#Pic4{
+	margin-top: 20px;
+}
+
+body{
+	margin: 0 0 0 0;
+}

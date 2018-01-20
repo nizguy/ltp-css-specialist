@@ -1,0 +1,30 @@
+a.button span{
+	background-color: transparent;
+	background-image: url("images/Buttonorangeright1.png");
+	line-height: 95px;
+	display: block;
+	background-repeat: repeat-x;
+	
+	padding: 0px 5px 0px 0px;
+	
+	
+}
+a.button{
+	height:90px;
+	background-color: transparent;
+	background-image: url("images/Buttonorangeleft1.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	float: left;
+	display: block;
+	padding: 4px 20px 20px 105px;
+	
+}
+
+a.button:hover{
+	background-image: url("images/Buttonorangergthover.png");
+}
+
+a.button:hover span{
+	background-image: url("images/Buttonorangelefthover.png");
+}
